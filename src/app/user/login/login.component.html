@@ -1,0 +1,7 @@
+<div>
+    <div>Name: {{u.id}}</div>
+    <input  [(ngModel)]="u.id" placeholder="input name" style="display:block;"><span [hidden]='abc'>invalid</span>
+    <div>pswd</div>
+    <input [(ngModel)]="u.password" placeholder="input pswd" style="display:block;">
+    <button (click)="login()">login</button>
+</div>
